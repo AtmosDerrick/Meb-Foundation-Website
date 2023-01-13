@@ -1,0 +1,116 @@
+:root{
+    --titleFont: 'Abril Fatface', serif;
+    --bodyFont: Poppins, sans-serif;
+    --activecolor: rgb(244, 244, 4);
+    --titlefont1:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+.top{
+    font-family: var(--bodyFont);
+   
+    z-index: 10;
+  
+  }
+  
+  
+  .hove:hover{
+    transition: all 1s ease-in-out;
+    opacity: 0.7;
+  }
+  
+  .top .ro{
+    border: 2px solid red;
+    padding: 0.2rem 1rem;
+  }
+
+
+
+
+
+/* #nav-pattern{
+    background-color: black;
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    opacity: 0.7;
+    
+} */
+
+.mebName{
+    position: relative;
+    font-family: var(--titleFont);
+    z-index: 3;
+}
+
+#links{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+ 
+
+  .navlink{
+    transition: all 0.5s ease-in-out;
+
+    padding-bottom: 7px;
+    z-index: 90;
+    
+
+    font-family: var(--bodyFont);
+  }
+
+  .navlink:hover{
+    transition: all 0.5s ease-in-out;
+    border-bottom: 2px solid var(--activecolor);
+  }
+
+  
+
+  .meb{
+    font-family: var(--titleFont);
+  
+  }
+
+  #majorw{
+    font-family: var(--titleFont);
+    font-size: 2.5rem;
+    padding-top: 15vh;
+    text-shadow: 2px 2px 2px black;
+    
+  }
+
+  .button{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+  }
+
+  #booking{
+    border: 2px solid white;
+    color: white;
+  }
+
+  
+
+  
+#flag{
+  width: 130px; 
+ 
+}
+
+
+ 
+
+.maintitle{
+  font-family: var(--titlefont1);
+  font-size: 1.5rem;
+}
+
+.bodytext{
+  font-family:Roboto, sans-serif;
+  line-height: 2.2rem;
+}

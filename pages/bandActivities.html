@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css style link -->
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- home style link -->
+
+    <link rel="stylesheet" href="../css/bandActivities.css">
+    <link rel="stylesheet" href="../css/all.css">
+    
+
+    <!-- font links -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>MEB - Band Activities</title>
+</head>
+<body>
+    <div class="main w-full mx-auto bg-white">
+        <div class="fixed w-full bg-white mb-8 top  " id="top" >
+             <div class="md:w-full md:px-12 xl:px-0 xl:w-3/4 flex justify-between mx-auto relative top " >
+                 <div class="w-full  text-left text-xs  uppercase py-4 text-red-500 h-16 font-bold pl-4  whitetext" >
+                     <span class=" hidden md:inline-block lg:inline-block xl:inline-block"><a>Let Support The Blind</a></span>
+                     <a href="../pages/donation.html"><button class="uppercase    px- rounded-md ml-12  text-red-500 text-base  ro hove" id="whitetextdonation">Donate</button>
+                     </a> 
+                 </div>
+ 
+                 <div>
+                     <ul class="text-xs  lg:base xl:text-medium flex justify-center py-4  ">
+                        
+                         <li class=" hidden md:block lg:block xl:block text-gray-900 mr-8 hove whitetext">
+                             info@mebfoundationghana.org 
+                         </li>
+ 
+                         <li class="mx-2 text-gray-400  pt-2 md:pt-0  md:block lg:block xl:block hove  ">
+                             <button>English</button> 
+                         </li>
+ 
+                         <li class="mx-2  text-gray-400 pt-2 md:pt-0 pr-8 md:pr-0 md:block lg:block xl:block hove ">
+                             <button>Francaise</button>
+                         </li>
+                     </ul>
+                 </div>
+ 
+             </div>
+        </div>
+ 
+    <div class="main">
+        <div class="relative landing-first-div">
+            <div class="landing">
+                <!-- <div id="nav-pattern" class="pt-4">
+     
+                </div> -->
+     
+                <div class="md:w-full md:px-12 xl:px-0 xl:w-3/4  mx-auto pt-8 flex justify-between mt-12">
+                    <div class="mebName text-white  px-2 rounded-lg  pl-2 md:text-base lg:text-xl  ">
+                        <!-- MEB |<span class="text-yellow-400 lg:text-yellow-400 pl-2">Foundation Ghana</span> <img src="./images/ghana flag.png" alt="GHANA" id="flag" class="inline-block pr-2">  -->
+    
+                        <img src="../images/MEBL.jpg" alt="Meb Foundation" id="flag" class="inline-block pr-2">
+                    </div>
+     
+                     
+                     
+     
+                     
+     
+                     <div id="links" class="">
+                         <div class="flex justify-end" >
+                             <a href="javascript:void(0);" class="icon lg:hidden xl:hidden " id="menuResponsive">
+                                 <i class="fa fa-bars"></i>
+                             </a>
+         
+                         </div>
+                         
+                        
+                         <div class="topnav pt-2" id="myTopnav">
+                             
+                             
+                            
+                            <div id="showtopnav"  class=" hidden offscreen  lg:flex lg:justify-between bg-yellow-400 py-2   xl:flex xl:justify-between">
+                                 <div class="navlink-wrap"><a href="../index.html"  class="text-white lg:text-black shadow-lg    text-base px-2 mx-2  navlink hove">Home</a></div>
+                                 <div class="navlink-wrap"><a href="../public/pages/about.html" class="text-white lg:text-black shadow-lg    text-base px-2 mx-2  navlink hove">About</a></div>
+                                 <div class="navlink-wrap"><a href="../pages/projects.html" class="text-white lg:text-black shadow-lg    text-base px-2 mx-2  navlink hove">Projects</a></div>
+                                 <div class="navlink-wrap"><a href="../pages/bandActivities.html" class="text-white lg:text-black shadow-lg    text-base px-2 mx-2  navlink hove">Band Activities</a></div>
+                                 <div class="navlink-wrap"><a href="#contacts" class="text-white lg:text-black shadow-lg    text-base px-2 mx-2  navlink hove">Contact</a></div>
+     
+                                 <div><a href="../pages/donation.html" class="text-gray-900 lg:block xl:block hidden  text-lg px-6 mx-2 bg-white  capitalize meb rounded-md hove"> Donate</a></div>
+                            </div>
+                                 
+                          </div>
+     
+                     </div>
+                </div>
+     
+                <div id="landingword" class="w-full mx-auto ">
+                 <div class="uppercase  text-yellow-400 text-center px-2 md:px-0" id="majorw">
+                     Book <br><span class="text-white">MEB foundation for show Now</span>
+     
+                 </div>
+     
+                 <div class="flex justify-center mt-4  ">
+                    <a href="../pages/donation.html"><button class="uppercase px-2 py-1 md:px-4 md:py-2  bg-yellow-400 text-gray-900 text-sm md:text-base  rounded-md button mr-12 hove">Donate for the cause</button></a>
+                    
+
+                    <a href="../pages/booking.html"> <button class="uppercase px-2 py-1 md:px-4 md:py-2   text-gray-900 text-sm md:text-base  rounded-md button hove  " id="booking">Booking</button></a>
+
+                </div>
+
+             </div>
+        </div>
+    </div>
+
+    <div class="flex justify-between booking w-3/4 mx-auto mt-2 md:mt-12 ">
+      
+       <div id="mebmain" class="lg:w-full lg:px-12 xl:px-0 xl:w-3/4 mx-auto mt-12 pb-12 pl-8">
+        <div class="text-3xl uppercase text-gray-900  text-center tracking-widest pt-4 font-bold" >
+            Magic eyes band
+        </div>
+
+        <div class="w-full md:w-1/2 mx-auto mb-12 ">
+            <p class="text-base text-red-600 font-bold text-center bodytext">
+                Giving Hope Through Entertainment
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 ">
+            <div class="w-full text-base text-center shadow-lg  px-8 text-gray-700 h-60 mb-12" >
+                <div class="flex justify-center mb-12">
+                    <i class="fa-solid fa-paper-plane fa-2x text-yellow-500"></i>
+                </div>
+                <p>
+                    Magic Eyes Band is an innovative tool of Meb Foundation,a non-governmental organization based in Ghana
+                </p>
+            </div>
+
+            <div class="w-full text-base text-center shadow-lg px-8 text-gray-700 h-60 mb-12" >
+                <div class="flex justify-center mb-12">
+                    <i class="fa-solid fa-users fa-2x text-yellow-500"></i>
+                </div>
+                <p>
+                    The band is a group of talented blind musicians put together to help implement the vision of Meb Foundation
+                </p>
+            </div>
+
+            <div class="w-full text-base text-center shadow-lg h-60 mb-12 px-8 text-gray-700" >
+            <div class="flex justify-center mb-12">
+                <i class="fa-solid fa-medal fa-2x text-yellow-500"></i>
+
+            </div>
+                <p>
+                    The band represent a dynamic symbol of the capabilities of the visually impaired.
+
+
+                </p>
+            </div> 
+
+
+            <div class="w-full text-base text-center shadow-lg h-60 mb-12 px-8 text-gray-700" >
+                <div class="flex justify-center mb-12">
+                    <i class="fa-solid fa-money-bill fa-2x text-yellow-500"></i>
+    
+                </div>
+                    <p>
+                        The band is expected to raise funds through its performances both locally in Ghana and internationally
+    
+    
+                    </p>
+                
+           
+            </div>
+
+             <div class="w-full text-base text-center shadow-lg h-60 mb-12 px-8 text-gray-700" >
+                <div class="flex justify-center mb-12">
+                    <i class="fa-solid fa-church fa-2x text-yellow-500"></i>
+    
+                </div>
+                    <p>
+                        The Magic Eyes Band is honored to introduce Vitamin For The Soul Concert
+    
+                    </p>
+                 
+           
+            </div>
+
+            <div class="w-full text-base text-center shadow-lg h-60 mb-12 px-8 text-gray-700" >
+                <div class="flex justify-center mb-12">
+                    <i class="fa-solid fa-star fa-2x text-yellow-500"></i>
+    
+                </div>
+                    <p>
+                        Vitamin For The Soul Concert is a 2 hours non-stop gospel splash available for your church
+    
+    
+                    </p>
+                
+           
+            </div>
+
+            
+    </div>
+    
+    </div>
+    </div>
+
+
+    <div class="bandgallary xl:w-3/4 lg:w-full lg:px-4 px-0 mx-auto mb-12">
+        <div class="maintitle uppercase text-yellow-400  pb-2  text-center tracking-widest pt-4 font-bold">
+            Band Galary
+        </div>
+
+        <div class="w-full md:w-2/4 mx-auto mb-4 lg:mb-8 xl:mb-8 pt-2">
+            <p class="text-base text-gray-900 font-bold text-center     bodytext">
+                Visually Impared Individuals giving hope to the world through Entertainment
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 px-4">
+            <div>
+                <img src="../images/galary/1.JPG" alt="Meb FOundation Pictures">
+            </div>
+
+            <div>
+                <img src="../images/galary/2.JPG" alt="Meb FOundation Pictures">
+            </div>
+
+
+            <div>
+                <img src="../images/galary/3.JPG" alt="Meb FOundation Pictures">
+            </div>
+
+            <div>
+                <img src="../images/galary/4.JPG" alt="Meb FOundation Pictures">
+            </div>
+
+            <div>
+                <img src="../images/galary/5.JPG" alt="Meb FOundation Pictures">
+            </div>
+
+            <div>
+                <img src="../images/galary/6.JPG" alt="Meb FOundation Pictures">
+            </div>
+
+
+            <div>
+                <img src="../images/galary/7.JPG.jpg" alt="Meb FOundation Pictures">
+            </div>
+
+            <div>
+                <img src="../images/galary/8.JPG" alt="Meb FOundation Pictures">
+            </div>
+
+           
+
+            
+
+           
+
+           
+
+          
+
+        </div>
+
+    </div>
+
+    <div class="band-members xl:w-3/4 lg:w-full lg:px-4 px-0 mx-auto  ">
+        <div class="maintitle uppercase text-yellow-400  pb-2  text-center tracking-widest pt-4 font-bold">
+            Team Members
+        </div>
+
+        <div class="w-full md:w-2/4 mx-auto mb-4 lg:mb-8 xl:mb-8 pt-2">
+            <p class="text-base text-gray-900 font-bold text-center     bodytext">
+                Visually Impared Individuals giving hope to the world through Entertainment
+            </p>
+        </div>
+
+        <div class="grid grid-cols-2 lg:grid lg:grid-cols-4 " id="memberg">
+            <div class="w-full  ">
+                <img src="../images/member1.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+
+                <!-- <img src="../images/member2.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" > -->
+                <img src="../images/nanaP.jpg" alt="Nana Pokua" class="bmember mx-auto mb-8" >
+
+            </div>
+
+            <div class="w-3/4 lg:w-full ">
+                <div class="bg-gray-900 mt-2 md:mt-16 h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">NUVI EBENEZER</div>
+                    <div  class="w-full text-center text-yellow-400">Male Vocalist</div >
+                    <div  class="w-full text-center text-yellow-400">Completely Blind</div >
+                </div>
+
+                <!-- <div class="bg-gray-900 mt-12 md:mt-36 h-24 md:h-38 memberdetail">
+                    
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">SAKYI-AKOMEAH HENRY</div>
+                    <div  class="w-full text-center text-yellow-400">Assistant Sound <br> Technician /Drummer</div >
+                    <div  class="w-full text-center text-yellow-400">Partially Blind</div >
+                </div> -->
+                <div class="bg-gray-900 mt-12 md:mt-36 h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">Nana Pokua</div>
+                    <div  class="w-full text-center text-yellow-400">Female Vocalist</div >
+                    <div  class="w-full text-center text-yellow-400">Completely Blind</div >
+                </div>
+
+                
+
+               
+               
+
+            </div>
+            <div>
+                
+                <img src="../images/member3.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+
+                <img src="../images/member4.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+            </div>
+
+            <div class="w-3/4 lg:w-full ">
+                <div class="bg-gray-900 mt-2 md:mt-14  h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">SAKYI-AKOMEAH HENRY</div>
+                    <div  class="w-full text-center text-yellow-400">Assistant Sound<br> Technician /Drummer</div >
+                    <div  class="w-full text-center text-yellow-400">Partially Blind</div >
+                </div>
+
+                <div class="bg-gray-900 mt-12 md:mt-36 h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">ASIAMAH MATILDA</div>
+                    <div  class="w-full text-center text-yellow-400">Vocalist</div >
+                    <div  class="w-full text-center text-yellow-400">Completely Blind</div >
+                </div>
+
+            </div>
+
+            <div>
+                
+                <img src="../images/member5.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+
+                <img src="../images/member6.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+            </div>
+
+            <div class="w-3/4 lg:w-full ">
+                <div class="bg-gray-900 mt-2 md:mt-14  h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">BERKAI ISAAC</div>
+                    <div  class="w-full text-center text-yellow-400">Drummer</div >
+                    <div  class="w-full text-center text-yellow-400">Completely Blind</div >
+
+                          
+                </div>
+
+                <div class="bg-gray-900 mt-12 md:mt-36 h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">Emmanuel Kwabena Dartey</div>
+                    <div  class="w-full text-center text-yellow-400">Precissionost</div >
+                    <div  class="w-full text-center text-yellow-400">Completely Blind</div >
+                </div>
+
+            </div>
+
+            <div>
+                
+                <img src="../images/member7.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+
+                <img src="../images/member8.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+            </div>
+
+            <div class="w-3/4 lg:w-full ">
+                <div class="bg-gray-900 mt-2 md:mt-14  h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center uppercase">Cedric Ceton Asorgba</div>
+                    <div  class="w-full text-center text-yellow-400">Keyboardist</div >
+                    <div  class="w-full text-center text-yellow-400">Completely Blind</div >
+                </div>
+
+                <div class="bg-gray-900 mt-12 md:mt-36 h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">Godwin Nana</div>
+                    <div  class="w-full text-center text-yellow-400">Base guitarist</div >
+                    <div  class="w-full text-center text-yellow-400">Partially Blind</div >
+                </div>
+
+            </div>
+
+            <!-- New members added -->
+
+
+            <!-- <div>
+                
+                <img src="../images/member7.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+
+               
+            </div>
+
+            <div class="w-3/4 lg:w-full ">
+                <div class="bg-gray-900 mt-2 md:mt-14  h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">NUVI EBENEZER</div>
+                    <div  class="w-full text-center text-yellow-400">Vocalist</div >
+                    <div  class="w-full text-center text-yellow-400">Completely Blind</div >
+                </div>
+
+
+            </div>
+
+            <div>
+                
+                <img src="../images/member7.jpg" alt="NUVI EBENEZER" class="bmember mx-auto mb-8" >
+
+               
+            </div>
+
+            <div class="w-3/4 lg:w-full ">
+                <div class="bg-gray-900 mt-2 md:mt-14  h-24 md:h-38 memberdetail">
+                    <div class="membername text-base md:text-lg text-white font-semibold w-full text-center">NUVI EBENEZER</div>
+                    <div  class="w-full text-center text-yellow-400">Vocalist</div >
+                    <div  class="w-full text-center text-yellow-400">Completely Blind</div >
+                </div>
+
+
+            </div> -->
+
+
+            
+
+            
+
+           
+        </div>
+
+        
+
+
+        
+    </div>
+
+    <div id="liveband" class="xl:w-3/4 mx-auto lg:w-full lg:px-4 px-0">
+        <div class="maintitle uppercase text-gray-500  text-center tracking-widest pt-4 font-bold">
+            live band performances
+        </div>
+
+        <div class="w-full md:w-2/4 mx-auto mb-4 lg:mb-8 xl:mb-8 ">
+            <p class="text-base text-gray-900 font-bold text-center bodytext">
+                Visually Impared Individuals giving hope to the world through Entertainment
+            </p>
+        </div>
+
+        <div class=" grid grid-cols-1 lg:grid-cols-3 lg:gap-0 xl:gap-4 mt-12 relative ">
+            <div class="px-2 flex justify-center mb-4">
+                <iframe width="300" height="202" src="https://www.youtube.com/embed/ICn29KPKeNQ" title="live band performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+            <div class="px-2 flex justify-center mb-4">
+                <iframe width="300" height="202" src="https://www.youtube.com/embed/yR-mJ_OCl64" title="live band performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+            <div class="px-2 flex justify-center mb-4">
+                <iframe width="300" height="202" src="https://www.youtube.com/embed/Bq2TIzcJRGQ" title="live band performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+        </div>
+
+        <div class="flex justify-center mt-4 ">
+            <a href="https://www.youtube.com/channel/UCGPPczbdaoglcnrIxiU4Tww"><button class="uppercase px-8 py-2  bg-yellow-400 text-gray-900 text-base  rounded-md button mr-12 hove">Watch More Performances</button>
+            </a>
+        </div>
+    
+
+    </div>
+
+
+
+    <div id="contacts" class="w-full bg-gray-900 h-auto mt-8 py-8 ">
+        <div class="md:w-full lg:px-12 xl:px-0 xl:w-3/4 xl:mx-auto grid md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-4 lg:gap-4 xl:gap-8 p-8">
+            <div>
+                <div class="mebName text-yellow-400 text-center  text-xl md:flex lg:block xl:block justify-center mb-8">
+                    MEB | <span class="text-white">Foundation Ghana</span> 
+                </div>
+
+
+                <div class="text-gray-300 text-sm md:flex lg:block xl:block justify-center">
+                    <div class="w-full flex justifjustify-start">
+                        <div><i class="fa-sharp fa-solid fa-location-dot text-yellow-400 mr-4 text-lg "></i></div>
+
+                        <div class="">
+                            Block Factory off Kaneshie Kasoa Highway<br>
+    
+                            150 New Aplaku Road Aplaku - Accra Ghana<br> Digital Address: GS-0209-9058</li>
+                        </div>
+
+                    </div>
+
+                   
+
+                    <div class="w-full flex justify-start mt-4">
+                        <div>
+                            <i class="fa-solid fa-phone text-yellow-400 mr-4 text-lg"></i>
+
+                        </div>
+
+                        <div>
+                            +233 24 287 7972 <br> +233 20 042 0091
+    
+                        </div>
+
+                    </div>
+
+
+                    <div class="w-full flex justify-start mt-4">
+                        <div>
+                            <i class="fa-solid fa-envelope text-yellow-400 mr-4 text-lg"></i>
+
+                        </div>
+
+                        <div>
+                            
+                            info@mebfoundationghana.org  
+    
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+               
+            </div>
+
+
+            <div class="text-gray-300 text-sm ml-12 hidden lg:block">
+                <div class="mebName text-yellow-400  text-xl mb-8 uppercase tracking-wider">
+                    Pages
+                </div>
+
+                <ul class="leading-8">
+                    <a href="../pages/about.html" class="hover:cursor-pointer"><li>About Us</li></a>
+                    <a href="../pages/about.html#management" class="hover:cursor-pointer"><li>Our Team</li></a>
+
+                    <a href="../pages/projects.html" class="hover:cursor-pointer"><li>Projects</li></a>
+                    <a href="../pages/projects.html#activecamp" class="hover:cursor-pointer"><li>Active champaigns</li></a>
+                    <a href="../pages/bandActivities.html" class="hover:cursor-pointer"><li>Band Activities</li></a>
+
+
+                    <a href="../pages/donation.html" class="hover:cursor-pointer"><li>Donations</li></a>
+                    <a href="../pages/booking.html" class="hover:cursor-pointer"><li>Booking</li></a>
+
+
+
+
+                </ul>
+            </div>
+
+            <div class="hidden lg:block" >
+                <div class="mebName insta text-yellow-400  text-xl mb-8 uppercase tracking-wider ">
+                    Instagram
+                </div>
+
+                <div class="grid grid-cols-2">
+                    <img src="../images/instagram1.JPG" alt="" class="footerimg">
+                    <img src="../images/galary/3.JPG" alt="Meb foundation" class="footerimg">
+
+                    <img src="../images/instagram3.JPG" alt="" class="footerimg">
+ 
+                    <img src="../images/instagram4.JPG" alt="" class="footerimg">
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="mt-12">
+                <div class="flex justify-center mb-12 shadow-xl">
+                    <button class="bg-gray-200 py-2 px-6 rounded-lg font-sans font-bold text-gray-900 text-lg">Become a Donor</button>
+
+                </div>   
+
+                <div class="flex justify-center text-white">
+                    <a href="https://www.youtube.com/channel/UCGPPczbdaoglcnrIxiU4Tww"><i class="fa-brands fa-youtube mx-4 hove"></i></a>
+                    <a href="https://www.facebook.com/magiceyesbandghana"><i class="fa-brands fa-facebook mx-4 hove"></i>
+                    </a>
+                    <a href="https://instagram.com/magiceyesbandghana?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram mx-4 hove"></i>
+                    </a>
+                    <i class="fa-brands fa-twitter mx-4 hove"></i>
+
+                    
+                </div>
+                
+                
+
+            </div>
+
+            
+        </div>
+
+    </div>
+
+        <div class="w-full bg-gray-900 py-2 mb-2 ">
+            <div class="w-3/4 mx-auto text-white font-medium text-center italic ">
+                All Rights Reserved
+            </div>
+        </div>
+
+
+
+
+        
+
+
+
+    </div>
+
+
+    <script src="../js/all.js"></script>
+
+    <script src="../js/bandActivities.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script src="../js/bandActivities.js"></script>
+    <script>
+        AOS.init(
+            {
+                offset:400,
+                duration: 500
+            }
+        );
+    </script>
+</body>
+</html>

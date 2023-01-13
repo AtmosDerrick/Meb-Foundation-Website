@@ -1,0 +1,122 @@
+@media (max-width: 1024px) { 
+    #majorw{
+        padding-top: 20vh;
+        
+      }
+
+      .top .ro{
+        border: 2px solid red;
+        padding: 0.2rem 1rem;
+      }
+ }
+
+
+
+
+
+ @media (max-width: 768px) { 
+  .cardh .cardhIn{
+    height: 20rem;
+  }
+
+  @keyframes fade {
+    0%,50% { margin-top: -300px }
+    100% { margin-top: 0 }
+  }
+
+  .responsive{
+    transition: all 0s ease-in-out;
+    display: block;
+    margin-bottom: -800px;
+    margin-top: 0;
+    animation: fade 1s linear;
+    width: 50vw;
+    background-color: rgb(28, 28, 28);
+
+    padding: 10px;
+    float:left;
+    z-index: 20;
+   
+   
+  
+   }
+
+   .navlink{
+    color:aliceblue;
+   }
+
+   
+  .bottomline{
+    margin-top: -20px;
+  }
+
+
+   .navlink-wrap{
+    margin-bottom: 10px;
+    text-align: right;
+   }
+ 
+.icon{
+    font-size: 2rem;
+    color: white;
+    margin-right: 0.5rem;
+    margin-top: -10px;
+}
+
+#flag{
+    width: 100px; 
+    
+  }
+  .cardhIn{
+    height: 40rem;
+    
+  }
+
+  .activeimage{
+    width: 150rem;
+  }
+
+  .activecard{
+    margin-bottom: 1rem;
+  }
+
+
+  .bottomline{
+    margin-top: 50px;
+  }
+
+
+ 
+
+ }
+
+
+ @media(max-width:640px ){
+  .cardh .cardhIn{
+    height: auto;
+  }
+
+  #majorw{
+    
+    font-size: 1.5rem;
+    padding-top: 15vh;
+    
+  }
+
+  .activeimage{
+    width: 120rem;
+  }
+
+
+  .bottomline{
+    margin-top: 100px;
+  }
+
+  
+
+ }
+
+
+
+
+

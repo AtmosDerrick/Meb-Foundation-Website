@@ -1,0 +1,69 @@
+:root{
+    --titleFont: 'Abril Fatface', serif;
+    --bodyFont: Poppins, sans-serif;
+    --activecolor: rgb(244, 244, 4);
+    --titlefont1:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.landing{
+    background: url(../images/peformance.JPG) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw; 
+    overflow: hidden;
+}
+
+.booking-form{
+
+    z-index: 2;
+    height: 120vh;
+}
+
+
+/* .overlay{
+    z-index: 1;
+    height: 300vh;
+    opacity: 0.6;
+} */
+
+@media (max-width: 768px){
+    .landing{
+       
+        height: 170vh;
+       
+    }
+
+
+    .alternative{
+        margin-top: -190px;
+        background-color: rgb(31, 30, 30);
+        padding: 50px 20px;
+    }
+    
+
+}
+
+
+@media(max-width:640px ){
+    .landing{
+       
+        height: 200vh;
+       
+    }
+
+    .alternative{
+        margin-top: -200px;
+       
+    }
+
+    #googleform{
+        margin-top: 50px;
+
+        width: 350px;
+        height: 600;
+    }
+
+}
+  
+  
