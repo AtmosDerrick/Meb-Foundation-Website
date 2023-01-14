@@ -6,6 +6,17 @@
     
 }
 
+#pre-loader{
+  background: rgb(255, 255, 255) url(../images/loading.gif) no-repeat center;
+  height: 100VH;
+  width:100VW;
+  margin-left:0;
+  position: fixed;
+  z-index:100;
+  opacity: 0.8;
+ 
+}
+
 
 .top{
     font-family: var(--bodyFont);

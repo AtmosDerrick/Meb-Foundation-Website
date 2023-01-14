@@ -1,5 +1,10 @@
 
+var loader = document.getElementById("pre-loader");
 
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+    
+})
 
 const menubar = document.getElementById('menuResponsive').addEventListener('click', responsiveNavbar);
 function responsiveNavbar() {
