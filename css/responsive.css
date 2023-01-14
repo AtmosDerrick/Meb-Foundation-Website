@@ -14,9 +14,15 @@
 
 
 
+
+
  @media (max-width: 768px) { 
   .cardh .cardhIn{
     height: 20rem;
+  }
+
+  #pre-loader{
+    width: 100vw;
   }
 
   @keyframes fade {
@@ -95,6 +101,11 @@
   .cardh .cardhIn{
     height: auto;
   }
+
+  #pre-loader{
+    width: 100vw;
+  }
+
 
   #majorw{
     

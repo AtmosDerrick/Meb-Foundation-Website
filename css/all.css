@@ -8,8 +8,8 @@
 
 #pre-loader{
   background: rgb(255, 255, 255) url(../images/loading.gif) no-repeat center;
-  height: 100VH;
-  width:100VW;
+  height: 100vh;
+  width:100vw;
   margin-left:0;
   position: fixed;
   z-index:100;
