@@ -1,36 +1,42 @@
-@media (max-width: 1024px) { 
-    #majorw{
-        padding-top: 20vh;
-        
-      }
+@media (max-width: 1024px) {
+  #majorw {
+    padding-top: 15vh;
+  }
 
-      .top .ro{
-        border: 2px solid red;
-        padding: 0.2rem 1rem;
-      }
- }
+  .top .ro {
+    border: 2px solid red;
+    padding: 0.2rem 1rem;
+  }
+}
 
+@media (max-width: 768px) {
+  #majorw {
+    padding-top: 10vh;
+  }
 
+  .landing {
+    height: 100vh;
+  }
 
-
-
-
-
- @media (max-width: 768px) { 
-  .cardh .cardhIn{
+  .cardh .cardhIn {
     height: 20rem;
   }
 
-  #pre-loader{
+  #pre-loader {
     width: 100vw;
   }
 
   @keyframes fade {
-    0%,50% { margin-top: -300px }
-    100% { margin-top: 0 }
+    0%,
+    50% {
+      margin-top: -300px;
+    }
+    100% {
+      margin-top: 0;
+    }
   }
 
-  .responsive{
+  .responsive {
     transition: all 0s ease-in-out;
     display: block;
     margin-bottom: -800px;
@@ -40,94 +46,73 @@
     background-color: rgb(28, 28, 28);
 
     padding: 10px;
-    float:left;
+    float: left;
     z-index: 20;
-   
-   
-  
-   }
+  }
 
-   .navlink{
-    color:aliceblue;
-   }
+  .navlink {
+    color: aliceblue;
+  }
 
-   
-  .bottomline{
+  .bottomline {
     margin-top: -20px;
   }
 
-
-   .navlink-wrap{
+  .navlink-wrap {
     margin-bottom: 10px;
     text-align: right;
-   }
- 
-.icon{
+  }
+
+  .icon {
     font-size: 2rem;
     color: white;
     margin-right: 0.5rem;
     margin-top: -10px;
-}
-
-#flag{
-    width: 100px; 
-    
   }
-  .cardhIn{
+
+  #flag {
+    width: 100px;
+  }
+  .cardhIn {
     height: 40rem;
-    
   }
 
-  .activeimage{
+  .activeimage {
     width: 150rem;
   }
 
-  .activecard{
+  .activecard {
     margin-bottom: 1rem;
   }
 
-
-  .bottomline{
+  .bottomline {
     margin-top: 50px;
   }
+}
 
+@media (max-width: 640px) {
+  .landing {
+    height: 70vh;
+  }
 
- 
-
- }
-
-
- @media(max-width:640px ){
-  .cardh .cardhIn{
+  .cardh .cardhIn {
     height: auto;
   }
 
-  #pre-loader{
+  #pre-loader {
     width: 100vw;
   }
 
-
-  #majorw{
-    
-    font-size: 1.5rem;
-    padding-top: 15vh;
-    
+  #majorw {
+    font-size: 1rem;
+    padding-top: 10vh;
   }
 
-  .activeimage{
+  .activeimage {
     width: 120rem;
   }
 
-
-  .bottomline{
+  .bottomline {
     margin-top: 100px;
   }
-
-  
-
- }
-
-
-
-
-
+}
