@@ -92,7 +92,7 @@
 
 @media (max-width: 640px) {
   .landing {
-    height: 70vh;
+    height: 100vh;
   }
 
   .cardh .cardhIn {
@@ -104,7 +104,7 @@
   }
 
   #majorw {
-    font-size: 1rem;
+    font-size: 2rem;
     padding-top: 10vh;
   }
 
