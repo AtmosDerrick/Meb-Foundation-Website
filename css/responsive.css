@@ -72,7 +72,7 @@
   }
 
   .icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     margin-right: 0.5rem;
     margin-top: -10px;
@@ -100,7 +100,7 @@
 
 @media (max-width: 640px) {
   .landing {
-    height: 100vh;
+    height: 70vh;
   }
 
   .cardh .cardhIn {
@@ -111,8 +111,16 @@
     width: 100vw;
   }
 
+  #mainimage {
+    height: 20rem;
+  }
+
+  .cardh {
+    height: auto;
+  }
+
   #majorw {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 10vh;
   }
 
