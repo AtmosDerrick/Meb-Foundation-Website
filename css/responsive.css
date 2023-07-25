@@ -47,10 +47,10 @@
   .responsive {
     transition: all 0s ease-in-out;
     display: block;
-    margin-bottom: -800px;
+    margin-bottom: -600px;
     margin-top: 0;
     animation: fade 1s linear;
-    width: 50vw;
+    width: 70vw;
     background-color: rgb(28, 28, 28);
 
     padding: 10px;
@@ -72,7 +72,7 @@
   }
 
   .icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     margin-right: 0.5rem;
     margin-top: -10px;
