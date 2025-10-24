@@ -1,0 +1,133 @@
+:root {
+  --titleFont: "Abril Fatface", serif;
+  --bodyFont: Poppins, sans-serif;
+  --activecolor: rgb(244, 244, 4);
+  --titlefont1: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.landing {
+  background: url(../images/landing\ 6.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* text slide show */
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+
+  margin-top: 50px;
+}
+
+/* text slide show */
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+
+  margin-top: 20px;
+}
+
+#learnbutt {
+  margin-top: 0px;
+}
+
+.bottomline {
+  margin-top: 0px;
+}
+
+#learnbutt {
+  margin-top: -400px;
+}
+
+.maintitle {
+  font-family: var(--titlefont1);
+  font-size: 1.5rem;
+}
+
+.bodytext {
+  font-family: Roboto, sans-serif;
+  line-height: 2.2rem;
+}
+
+.cardh {
+  height: 25rem;
+  width: 100%;
+
+  margin-bottom: 1rem;
+}
+
+.cardh .text-sm {
+  height: 18rem;
+}
+
+#about p {
+  font-family: var(--bodyFont);
+}
+
+#bookingbody {
+  border: 2px solid black;
+}
+
+#mainimage {
+  width: 50rem;
+  height: 35rem;
+}
+
+#donation {
+  /* border-top: 0.5rem solid rgb(227, 205, 1); */
+  font-family: Roboto, sans-serif;
+}
+
+.donationImages {
+  width: 35rem;
+  height: 20rem;
+}
+
+#donation3 {
+  width: 35rem;
+  height: 40rem;
+}
+
+.donationword {
+  font-family: Roboto, sans-serif;
+  height: 25rem;
+}
+.butt {
+  transition: all 1s ease-in-out;
+}
+
+.butt:hover {
+  transition: all 1s ease-in-out;
+  opacity: 0.8;
+}
+
+.activeword {
+  font-family: Roboto, sans-serif;
+}
+
+.activeimage {
+  width: 30rem;
+}
+
+.activecard {
+  height: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.changecolor {
+  background-color: rgb(34, 34, 34);
+}
+
+.donatewhite {
+  color: white;
+  border: 3px solid rgb(219, 204, 0);
+  padding: 0.2rem 1rem;
+}
+
+#mebbooking {
+  border: 3px solid black;
+}
